@@ -111,7 +111,7 @@ The following files are stored.
 ### utils/cvfpscalc.py
 This is a module for FPS measurement.
 
-# Training
+# Training (Kazuhito Takehashi's repo)
 Hand sign recognition and finger gesture recognition can add and change training data and retrain the model.
 
 The model is trained on a dataset represented by X_train and y_train, which contain input features and corresponding labels, respectively. The training process involves iterating over the entire dataset for a specified number of epochs (in this case, 1000 epochs) and updating the model's weights based on the optimization of a chosen loss function. The training is performed in batches of 128 samples at a time, enhancing computational efficiency and memory usage. 
